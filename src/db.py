@@ -7,6 +7,10 @@ from langchain_core.chat_history import BaseChatMessageHistory
 
 import sqlite3
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 # Define the SQLite database
 DATABASE_URL = "sqlite:///chat_history.db"
 Base = declarative_base()
