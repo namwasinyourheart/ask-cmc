@@ -8,3 +8,4 @@ langchain_openai
 langchain_core
 bs4
 chromadb
+sqlite3>=3.35.0
