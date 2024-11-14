@@ -8,3 +8,4 @@ langchain_openai
 langchain_core
 bs4
 chromadb
+pysqlite3-binary
