@@ -1,0 +1,11 @@
+pandas
+python-dotenv
+streamlit
+time
+datetime
+uuid
+sqlalchemy
+langchain_community
+langchain
+langchain_openai
+langchain_core
