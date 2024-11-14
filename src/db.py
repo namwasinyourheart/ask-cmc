@@ -5,6 +5,8 @@ from sqlalchemy.exc import SQLAlchemyError
 from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain_core.chat_history import BaseChatMessageHistory
 
+import sqlite3
+
 # Define the SQLite database
 DATABASE_URL = "sqlite:///chat_history.db"
 Base = declarative_base()
