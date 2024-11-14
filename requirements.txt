@@ -1,9 +1,6 @@
 pandas
 python-dotenv
 streamlit
-time
-datetime
-uuid
 sqlalchemy
 langchain_community
 langchain
